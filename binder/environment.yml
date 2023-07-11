@@ -1,0 +1,32 @@
+name: eco_atbd
+channels:
+  # - udst
+  - conda-forge
+dependencies:
+  - hvplot
+  - fiona
+  - scikit-learn
+  - shapely
+  - cartopy
+  - georaster
+  - geopandas
+  - gdal
+  - jupyter
+  - rasterio
+  - xarray<0.18.2
+  - rioxarray
+  - numpy
+  - xarray
+  - georasters
+  - fsspec
+  - wget
+  - pywget
+  - plotly
+  - pip
+  - ipywidgets<8.0.0
+  # - urbanaccess
+  # - pandana
+  - pip:
+    - learn2map
+    - oocprocess
+    - awscli==1.18.156
